@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: darkgray;
+}
+h1,
+h3 {
+  text-align: center;
+  padding: 16px;
+}
+Table {
+  width: 350px;
+  height: 300px;
+  margin: 40px auto;
+}
+td {
+  font-size: 1.2rem;
+  text-align: center;
+  width: 50px;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: tomato;
+  color: white;
+}
+h3{
+  font-size: 1.8rem;
+  background-color: salmon;
+}
+h1{
+  background-color: brown;
+  color: pink;
+}
+.button{
+  display: flex;
+  justify-content: center;
+}
+.start{
+  margin: 10px 0px;
+  padding: 6px;
+  font-size: 1.3rem;
+  background-color: salmon;
+  border: 2px solid black;
+  box-shadow: 1px 1px 5px 2px;
+}
